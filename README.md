@@ -67,7 +67,16 @@ Netflix_data_analysis_SQL_Project/
 ---
 
 🙋‍♂️ Author
+
 Mangal Singh
+
 🎓 B.Tech CSE | Aspiring Data Analyst & SQL Developer
-📎 GitHub
-🔗 LinkedIn
+
+📎 https://github.com/mangal-singh001
+
+🔗 https://www.linkedin.com/in/mangal-singh123/
+
+
+
+⭐ If you found this project helpful, give it a star!
+
