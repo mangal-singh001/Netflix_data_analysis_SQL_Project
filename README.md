@@ -36,51 +36,6 @@ The dataset includes:
 
 ---
 
-## 📊 Key SQL Queries & Insights
-
-### ✅ 1. Count of Movies vs TV Shows
-```sql
-SELECT type, COUNT(*) AS total_titles
-FROM netflix_data
-GROUP BY type;
-````
-
-### ✅ 2. Most Common Rating by Type
-
-```sql
-SELECT type, MAX(rating) AS common_rating
-FROM netflix_data
-GROUP BY type;
-```
-
-### ✅ 3. Titles Featuring a Specific Actor (e.g., Salman Khan)
-
-```sql
-SELECT *
-FROM netflix_data
-WHERE cast ILIKE '%Salman Khan%';
-```
-
-### ✅ 4. Movie with the Longest Duration
-
-```sql
-SELECT *
-FROM netflix_data
-WHERE type = 'Movie'
-AND duration = (SELECT MAX(duration) FROM netflix_data WHERE type = 'Movie');
-```
-
-### ✅ 5. Top 10 Countries with the Most Netflix Titles
-
-```sql
-SELECT country, COUNT(*) AS total_titles
-FROM netflix_data
-GROUP BY country
-ORDER BY total_titles DESC
-LIMIT 10;
-```
-
----
 
 ## 📌 Learnings
 
@@ -111,4 +66,8 @@ Netflix_data_analysis_SQL_Project/
 
 ---
 
-
+🙋‍♂️ Author
+Mangal Singh
+🎓 B.Tech CSE | Aspiring Data Analyst & SQL Developer
+📎 GitHub
+🔗 LinkedIn
